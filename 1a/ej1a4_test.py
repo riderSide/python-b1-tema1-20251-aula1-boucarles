@@ -5,3 +5,4 @@ def test_count_vowels():
     assert count_vowels("Python") == 1, "count_vowels does not return the correct value for input 'Python'. It should be 1"
     assert count_vowels("Aeiou") == 5, "count_vowels does not return the correct value for input 'Aeiou'. It should be 5"
     assert count_vowels("") == 0, "count_vowels does not return the correct value for input ''. It should be 0"
+    assert count_vowels("No sé pas l'hora que em véu nat") == 9, "count_vowels does not return the correct value for input 'No sé pas l'hora que em véu nat'. It should be 9"
